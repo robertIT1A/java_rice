@@ -1,0 +1,17 @@
+* {margin: 0;padding: 0;}
+
+body{min-height: 100vh;display: flex;justify-content: center;align-items: center;}
+
+.container {border: solid black;display: flex;justify-content: center;align-items: center;flex-direction: column;width: 20rem;padding: 3rem;gap: 1rem;}
+
+.container p {text-align: justify;}
+
+.btn button{border: none;padding: 10px;}
+
+.open, .close {transform: scale(0);display: none;}
+
+.open.pop, .close.pop {transform: scale(1);display: flex;}
+
+.container.remove {display: none;transform: scale(0);}
+
+span {color: red;}
