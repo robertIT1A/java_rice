@@ -13,5 +13,5 @@ body{min-height: 100vh;display: flex;justify-content: center;align-items: center
 .open.pop, .close.pop {transform: scale(1);display: flex;}
 
 .container.remove {display: none;transform: scale(0);}
-
 span {color: red;}
+
