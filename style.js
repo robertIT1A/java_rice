@@ -1,6 +1,7 @@
 let num = prompt("Enter a number: ");
     num = Number(num);
 
+
     if (num >= 1 && num % 2 === 0) {
       console.log("Possitive and Even");
     } else if (num >= 1 && num % 2 !== 0) {
