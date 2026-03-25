@@ -12,3 +12,5 @@ let num = prompt("Enter a number: ");
     } else {
       console.log("Zero");
     }
+
+
