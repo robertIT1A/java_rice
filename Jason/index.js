@@ -33,6 +33,7 @@ const people = [{
     "isEmployed": false
 }]
 
+
 const jsonString = JSON.stringify(people);
 
 console.log(people);
