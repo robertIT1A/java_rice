@@ -7,8 +7,6 @@ let num = prompt("Enter a number: ");
 
 
 
-
-
     if (num >= 1 && num % 2 === 0) {
       console.log("Possitive and Even");
     } else if (num >= 1 && num % 2 !== 0) {
