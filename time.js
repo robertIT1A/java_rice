@@ -4,6 +4,7 @@ function time() {
     let min = now.getMinutes();
     let sec = now.getSeconds();
     
+    
     const ampm = hours >= 12 ? "PM" : "AM";
 
     hours = hours % 12;
