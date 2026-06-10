@@ -14,3 +14,5 @@ const observer = new IntersectionObserver((entries) => {
     const animatedElements = document.querySelectorAll('.fade-in, .scale-in, .slide-in-left, .slide-in-right');
     animatedElements.forEach(el => observer.observe(el));
 
+
+
